@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetPackProjectTheme {
 
-                LazyColumn(Modifier.fillMaxSize())
+                ToggleExample()
 
             }
         }
